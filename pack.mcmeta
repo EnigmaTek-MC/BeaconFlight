@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "pack_format": 31,
+    "supported_formats": [31, 99],
+    "description": "Beacon flight datapack"
+  }
+}

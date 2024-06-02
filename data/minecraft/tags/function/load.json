@@ -1,0 +1,7 @@
+{
+  "replace":false,
+  "values": [
+    "bf_iris:setup/load",
+    "beacon_flight:load"
+  ]
+}

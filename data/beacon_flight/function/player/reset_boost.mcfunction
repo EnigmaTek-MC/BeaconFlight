@@ -1,0 +1,1 @@
+attribute @s minecraft:generic.gravity modifier remove beacon_flight:boost

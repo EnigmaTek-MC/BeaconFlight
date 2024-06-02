@@ -1,0 +1,13 @@
+execute if entity @s[type=minecraft:allay] run function bf_iris:get_hitbox/entity/shape_groups/allay
+execute if entity @s[type=minecraft:area_effect_cloud] run function bf_iris:get_hitbox/entity/shape_groups/area_effect_cloud
+execute if entity @s[type=minecraft:armadillo] run function bf_iris:get_hitbox/entity/shape_groups/armadillo
+execute if entity @s[type=minecraft:armor_stand] run function bf_iris:get_hitbox/entity/shape_groups/armor_stand
+execute if entity @s[type=#bf_iris:shape_groups/arrow] run function bf_iris:get_hitbox/entity/shape_groups/arrow
+execute if entity @s[type=minecraft:axolotl] run function bf_iris:get_hitbox/entity/shape_groups/axolotl
+execute if entity @s[type=#bf_iris:shape_groups/bat] run function bf_iris:get_hitbox/entity/shape_groups/bat
+execute if entity @s[type=minecraft:bee] run function bf_iris:get_hitbox/entity/shape_groups/bee
+execute if entity @s[type=#bf_iris:shape_groups/blaze] run function bf_iris:get_hitbox/entity/shape_groups/blaze
+execute if entity @s[type=#bf_iris:shape_groups/boat] run function bf_iris:get_hitbox/entity/shape_groups/boat
+execute if entity @s[type=#bf_iris:shape_groups/bogged] run function bf_iris:get_hitbox/entity/shape_groups/bogged
+execute if entity @s[type=minecraft:breeze] run function bf_iris:get_hitbox/entity/shape_groups/breeze
+execute if entity @s[type=#bf_iris:shape_groups/breeze_wind_charge] run function bf_iris:get_hitbox/entity/shape_groups/breeze_wind_charge
