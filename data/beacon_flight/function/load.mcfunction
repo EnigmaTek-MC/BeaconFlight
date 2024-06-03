@@ -6,6 +6,8 @@ scoreboard players set #20 beacon_flight.__vars__ 20
 scoreboard objectives add beacon_flight.timer dummy
 scoreboard objectives add beacon_flight.active dummy
 scoreboard objectives add beacon_flight.enabled dummy
+scoreboard players add $default beacon_flight.enabled 0
+scoreboard players set $pack_installed beacon_flight.enabled 1
 
 scoreboard objectives add beacon_flight.help trigger
 
