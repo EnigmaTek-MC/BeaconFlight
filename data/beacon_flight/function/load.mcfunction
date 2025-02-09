@@ -9,6 +9,9 @@ scoreboard objectives add beacon_flight.enabled dummy
 scoreboard players add $default beacon_flight.enabled 0
 scoreboard players set $pack_installed beacon_flight.enabled 1
 
+scoreboard objectives add beacon_flight.space_timer dummy
+scoreboard objectives add beacon_flight.space_state dummy
+
 scoreboard objectives add beacon_flight.help trigger
 
 schedule function beacon_flight:marker/tick 4s

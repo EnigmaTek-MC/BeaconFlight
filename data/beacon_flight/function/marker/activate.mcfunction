@@ -1,5 +1,7 @@
 execute unless block ~ ~ ~ minecraft:beacon run return run kill @s
-execute unless data block ~ ~ ~ primary_effect run return 0
+execute unless predicate beacon_flight:has_beam run return fail
+execute if data block ~ ~ ~ {Levels:0} run return fail
+# execute unless data block ~ ~ ~ primary_effect run return 0
 
 # Horizontal offset
 execute store result score $range beacon_flight.__vars__ store result score $duration beacon_flight.__vars__ run data get block ~ ~ ~ Levels

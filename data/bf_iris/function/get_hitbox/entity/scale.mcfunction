@@ -4,7 +4,7 @@
 #
 # @within bf_iris:get_hitbox/entity
 
-execute store result score $attribute_scale bf_iris run attribute @s generic.scale get 1000
+execute store result score $attribute_scale bf_iris run attribute @s minecraft:scale get 1000
 execute if score $attribute_scale bf_iris matches 0 run return fail
 execute if score $attribute_scale bf_iris matches 1000 run return 0
 
