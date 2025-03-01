@@ -1,7 +1,7 @@
 # Beacon flight has been disabled externally - terminate flight
 execute as @a[scores={beacon_flight.enabled=0,beacon_flight.active=1}] if function beacon_flight:player/deactivate run scoreboard players set @s beacon_flight.timer -1
 
-# Check for 
+# Check for disabled elytra items outside of the chest slot
 execute store result score $time beacon_flight.__vars__ run time query gametime
 scoreboard players operation $time beacon_flight.__vars__ %= #20 beacon_flight.__vars__
 execute if score $time beacon_flight.__vars__ matches 0 as @a run function beacon_flight:player_elytra_check
